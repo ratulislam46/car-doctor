@@ -1,9 +1,12 @@
-import Image from "next/image";
+import ServiceData from "./components/ServiceData";
 
-export default function Home() {
+export default async function Home() {
+
   return (
     <div>
-      <h1 className="min-h-screen flex justify-center items-center font-bold text-2xl">This is Car Doctor Web Home Page</h1>
+      <section className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+        <ServiceData></ServiceData>
+      </section>
     </div>
-  );
+  )
 }

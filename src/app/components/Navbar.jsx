@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -5,8 +7,11 @@ const Navbar = () => {
   const navMenu = () => {
     return (
       <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+        <li><Link href='/'>Home</Link></li>
+        <li><Link href='/about'>About</Link></li>
+        <li><Link href='/services'>Services</Link></li>
+        <li><Link href='/blog'>Blog</Link></li>
+        <li><Link href='/contact'>Contact</Link></li>
       </>
     )
   }
@@ -27,7 +32,9 @@ const Navbar = () => {
 
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link href={'/'} className="text-xl">
+          <Image src='/assets/logo.svg' width={70} height={54} alt='logo'></Image>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -37,7 +44,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn btn-error btn-soft">Appointment</a>
       </div>
     </div>
   );
