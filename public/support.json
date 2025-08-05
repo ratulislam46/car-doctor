@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Expert Team",
+    "icon": "https://img.icons8.com/ios-filled/100/group.png"
+  },
+  {
+    "id": 2,
+    "title": "Timely Delivery",
+    "icon": "https://img.icons8.com/ios-filled/100/clock--v1.png"
+  },
+  {
+    "id": 3,
+    "title": "24/7 Support",
+    "icon": "https://img.icons8.com/ios-filled/100/headset.png"
+  },
+  {
+    "id": 4,
+    "title": "Best Equipment",
+    "icon": "https://img.icons8.com/ios-filled/100/maintenance.png"
+  },
+  {
+    "id": 5,
+    "title": "100% Guranty",
+    "icon": "https://img.icons8.com/ios-filled/100/shield.png"
+  },
+  {
+    "id": 6,
+    "title": "Timely Delivery",
+    "icon": "https://img.icons8.com/ios-filled/100/delivery.png"
+  }
+]
