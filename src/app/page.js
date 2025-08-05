@@ -1,11 +1,11 @@
-import ServiceData from "./components/ServiceData";
+import ServiceSection from '@/app/components/ServiceSection'
 
 export default async function Home() {
 
   return (
-    <div>
-      <section className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-        <ServiceData></ServiceData>
+    <div className='container mx-auto'>
+      <section className='mt-12 flex justify-center'>
+        <ServiceSection></ServiceSection>
       </section>
     </div>
   )
