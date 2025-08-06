@@ -1,5 +1,10 @@
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
+
+export const collectionNameObj = {
+    servicesCollection: 'paracticeData'
+}
+
 export default function dbConnect(collectionName) {
     const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ibgq1ve.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
